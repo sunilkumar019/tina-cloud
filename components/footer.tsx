@@ -12,7 +12,7 @@ import { Icon } from "./icon";
 export const Footer = ({ data, icon, rawData }) => {
   const theme = React.useContext(ThemeContext);
   const socialIconClasses = "h-7 w-auto";
-  const socialIconColorClasses = {
+  const socialIconColorClasses = { 
     blue: "text-blue-500 dark:text-blue-400 hover:text-blue-300",
     teal: "text-teal-500 dark:text-teal-400 hover:text-teal-300",
     green: "text-green-500 dark:text-green-400 hover:text-green-300",

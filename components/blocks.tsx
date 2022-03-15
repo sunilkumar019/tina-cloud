@@ -11,7 +11,7 @@ export const Blocks = (props: Pages) => {
       {props.blocks
         ? props.blocks.map(function (block, i) {
             switch (block.__typename) {
-              case "PagesBlocksContent":
+              case "PagesBlocksContent" :
                 return (
                   <div
                     data-tinafield={`blocks.${i}`}

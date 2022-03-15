@@ -4,7 +4,7 @@ import { BiRightArrowAlt } from "react-icons/bi";
 import { ThemeContext } from "./theme";
 
 export const Actions = ({
-  parentColor = "default",
+  parentColor = "default ",
   parentField = "",
   className = "",
   actions,

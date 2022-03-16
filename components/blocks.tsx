@@ -35,7 +35,7 @@ export const Blocks = (props: Pages) => {
                     data-tinafield={`blocks.${i}`}
                     key={i + block.__typename}
                   >
-                    <Features data={block} parentField={`blocks.${i}`} />
+                    <Features data={block} parentField={`blocks.${i} `} />
                   </div>
                 );
               case "PagesBlocksTestimonial":
